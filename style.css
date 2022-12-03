@@ -1,0 +1,117 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+.Container .Heading {
+    width: 70%;
+    padding-bottom: 50px;
+}
+.Container .Heading h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid gray;  
+}
+
+.Container .Heading h1 span {
+    font-weight: 100;  
+}
+.Container .Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Container .Box .Col1{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    justify-content: space-between;   
+}
+.Container .Box .Col2{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%; 
+    justify-content: space-between; 
+}
+.Container .Box .Col3{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%; 
+    justify-content: space-between;  
+}
+.Container .Box .Col1 img{
+    width: 100%; 
+
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 6px red
+}
+.Container .Box .Col2 img{
+    width: 100%; 
+ 
+    border: 3px solid black;
+    border-radius: 10px; 
+    box-shadow: 5px 6px yellow; 
+}
+.Container .Box .Col3 img{
+    width: 100%;
+    height: 40%;  
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 6px blue;
+    /* box-shadow: 2px 3px yellow; */
+}
+
+.Container .btn {
+    margin: 40px 0 70px 0 ;
+    background-color: #222;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.Container .btn :link {
+    text-decoration: none;
+}
+.Container .btn a{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px) {
+    .Container .Box {
+        flex-direction: column;
+    }
+    .Container .Box .Col1{
+        width: 100%;
+        justify-content: space-evenly;   
+    }
+    .Container .Box .Col2{
+        width: 100%;
+        justify-content: space-evenly;   
+    }.Container .Box .Col3{
+        width: 100%;
+        justify-content: space-evenly;   
+    }
+}
+@media only screen and (max-width: 668px) {
+    .Container .Heading {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .Container .Heading h1 {
+        font-size: 1em;
+    }
+}
