@@ -29,6 +29,8 @@
     font-weight: 100;  
 }
 .Container .Box {
+    margin: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -56,7 +58,8 @@
     transition: .7s ease;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: 5px 6px red
+    box-shadow: 5px 6px red;
+    -webkit-filter: blur(3px);
 }
 .Container .Box .Col2 img{
     width: 100%; 
@@ -64,6 +67,7 @@
     border: 3px solid black;
     border-radius: 10px; 
     box-shadow: 5px 6px yellow; 
+    -webkit-filter: blur(3px);
 }
 .Container .Box .Col3 img{
     width: 100%;
@@ -72,23 +76,29 @@
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 5px 6px blue;
+    -webkit-filter: blur(3px);
     /* box-shadow: 2px 3px yellow; */
 }
 .Container .Box .Col1 img:hover {
-    scale: 1.5;
+    scale: 1.25;
     box-shadow: none;
     border-radius: 5px;
     border: none;
+    -webkit-filter: blur(0px);
 }.Container .Box .Col2 img:hover {
-    scale: 1.5;
+    scale: 1.25;
     box-shadow: none;
     border-radius: 5px;
     border: none;
-}.Container .Box .Col3 img:hover {
-    scale: 1.5;
+    -webkit-filter: blur(0px);
+
+}
+.Container .Box .Col3 img:hover {
+    scale: 1.25;
     box-shadow: none;
     border-radius: 5px;
     border: none;
+    -webkit-filter: blur(0px);
 }
 
 .Container .btn {
