@@ -87,7 +87,8 @@
     border-radius: 5px;
     border: none;
     -webkit-filter: blur(0px);
-}.Container .Box .Col2 img:hover {
+}
+.Container .Box .Col2 img:hover {
     scale: 1.25;
     box-shadow: none;
     border-radius: 5px;
@@ -102,6 +103,12 @@
     border: none;
     -webkit-filter: blur(0px);
 }
+.Container .Box .Col1 img:hover {
+    scale: 1.25;
+    box-shadow: none;
+    border-radius: 5px;
+    border: none;
+  
 
 .Container .btn {
     margin: 40px 0 70px 0 ;
