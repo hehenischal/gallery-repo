@@ -85,7 +85,13 @@ body {
     border-radius: 10px;
     box-shadow: 5px 6px blue;
     -webkit-filter: blur(1px);
+<<<<<<< HEAD
     
+=======
+}
+.Container .box img :hover .box {
+    -webkit-filter: blur(5px);
+>>>>>>> cb84c1da58608fef1d8eba5c4f9f76e5670d21ce
 }
 .Container .Box .Col1 img:hover {
     scale: 1.25;
@@ -93,7 +99,8 @@ body {
     border-radius: 5px;
     border: none;
     -webkit-filter: blur(0px);
-}.Container .Box .Col2 img:hover {
+}
+.Container .Box .Col2 img:hover {
     scale: 1.25;
     box-shadow: none;
     border-radius: 5px;
@@ -108,6 +115,7 @@ body {
     border: none;
     -webkit-filter: blur(0px);
 }
+  
 
 .Container .btn {
     margin: 40px 0 70px 0 ;
