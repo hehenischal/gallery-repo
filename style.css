@@ -103,11 +103,6 @@
     border: none;
     -webkit-filter: blur(0px);
 }
-.Container .Box .Col1 img:hover {
-    scale: 1.25;
-    box-shadow: none;
-    border-radius: 5px;
-    border: none;
   
 
 .Container .btn {
