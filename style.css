@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
+body {
+    transition: 3s ease;
+}
+
 .Container{
     display: flex;
     flex-direction: column;
@@ -23,6 +27,10 @@
     font-weight: bolder;
     padding-bottom: 10px;
     border-bottom: 3px solid gray;  
+}
+.Container .Heading .h1:hover .Container {
+    color: #000;
+    
 }
 
 .Container .Heading h1 span {
@@ -59,7 +67,7 @@
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 5px 6px red;
-    -webkit-filter: blur(3px);
+    -webkit-filter: blur(1px);
 }
 .Container .Box .Col2 img{
     width: 100%; 
@@ -67,7 +75,7 @@
     border: 3px solid black;
     border-radius: 10px; 
     box-shadow: 5px 6px yellow; 
-    -webkit-filter: blur(3px);
+    -webkit-filter: blur(1px);
 }
 .Container .Box .Col3 img{
     width: 100%;
@@ -76,8 +84,8 @@
     border: 3px solid black;
     border-radius: 10px;
     box-shadow: 5px 6px blue;
-    -webkit-filter: blur(3px);
-    /* box-shadow: 2px 3px yellow; */
+    -webkit-filter: blur(1px);
+    
 }
 .Container .Box .Col1 img:hover {
     scale: 1.25;
@@ -115,6 +123,26 @@
     font-size: 1.2em;
     font-weight: bolder;
     letter-spacing: 3px;
+}
+footer {
+    position: relative;
+    justify-self: center;
+    background-color: yellowgreen;
+    padding: 10px;
+    background-color: #2c3e50;
+}
+.footer .div {
+    height: 50px;
+   display: block;
+    justify-content: space-evenly;
+}
+.icons {
+    transition: 1.5s ease ;
+  }
+.icons p {
+    display: flex;
+    justify-content: CENTER;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 769px) {
