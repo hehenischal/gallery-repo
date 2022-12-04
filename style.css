@@ -6,11 +6,16 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
+
 body {
     transition: 3s ease;
 }
 
 .Container{
+    background-image: url(camera.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-blend-mode: screen;
     display: flex;
     flex-direction: column;
     justify-content: center;
